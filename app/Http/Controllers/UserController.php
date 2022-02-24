@@ -34,7 +34,7 @@ class UserController extends Controller
         $user->last_name = $request['last_name'];
         $user->save();
 
-        return back()->with('message','Profile Updated');
+        return back()->with('message','Profile updated successfully');
     }
 
     /**

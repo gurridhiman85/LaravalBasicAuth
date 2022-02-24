@@ -62,6 +62,13 @@ Route::middleware('auth')->group(function () {
 
     Route::get('change-password', [\App\Http\Controllers\UserController::class , 'changepassword'])
         ->name('changepassword');
+
     Route::post('change-password', [\App\Http\Controllers\UserController::class , 'updatepassword'])
         ->name('updatepassword');
+
+    Route::get('allusers', [\App\Http\Controllers\AdminController::class , 'allusers'])
+        ->name('allusers');
+
+    Route::get('allactivities', [\App\Http\Controllers\AdminController::class , 'allactivities'])
+        ->name('allactivities');   
 });

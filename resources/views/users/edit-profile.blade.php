@@ -12,7 +12,13 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                     <!-- Validation Errors -->
                     <x-auth-validation-errors class="mb-4" :errors="$errors" />
-
+                    @if(session()->has('message'))
+                        <div class="mb-4">
+                            <div class="font-medium border p-2 text-green-600">
+                                Success! {{ session()->get('message') }}
+                            </div>
+                        </div>
+                    @endif
                     <form method="POST" action="{{ route('updateprofile') }}">
                     @csrf
 
