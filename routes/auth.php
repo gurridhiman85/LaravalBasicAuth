@@ -70,5 +70,5 @@ Route::middleware('auth')->group(function () {
         ->name('allusers');
 
     Route::get('allactivities', [\App\Http\Controllers\AdminController::class , 'allactivities'])
-        ->name('allactivities');   
+        ->name('allactivities');
 });
