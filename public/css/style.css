@@ -1,0 +1,154 @@
+.mv-5 {
+    margin: 5% 0%;
+}
+
+.mt-5 {
+    margin-top: 10%;
+}
+
+h1, p {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.primary-color {
+    color: #4F857C;
+}
+
+.primary-bg-color {
+    background: #4F857C;
+}
+
+.primary-button {
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: 0px;
+    padding: 10px;
+    color: white;
+}
+
+#header div {
+    padding: 25px 0px;
+}
+
+#header img {
+    display: block;
+    margin: 0px auto;
+    max-width: 100px;
+}
+
+#hero .hero-container {
+    background: url("../images/header.jpg") no-repeat;
+    background-size: cover;
+    margin: auto;
+    max-height: 324px;
+    background-position: center;;
+}
+
+#hero h1 {
+    font-size: 70px;
+    color: white;
+    line-height: 324px;
+    text-align: center;
+}
+
+#hero-heading h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
+#offer-section .new-offer > .content {
+    padding: 3%;
+}
+
+#offer-section .new-offer > .content p{
+    color: white;
+}
+
+#offer-section .new-offer > .content button{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: 0px;
+    padding: 10px;
+}
+
+#offer-section .new-offer img {
+    width: 100%;
+}
+
+#offer-section .new-offer h1 {
+    font-size: 70px;
+    color: white;
+}
+
+#offer-section .offer-content {
+    background: #F6EBD8;
+    padding: 2%;
+}
+
+#offer-section .offer-content h3 {
+    font-size: 45px;
+}
+
+#offer-section .offer-image img {
+    width: 100%;
+}
+
+#faqs {
+    background: #47647C;
+    padding: 5%;
+}
+
+#faqs .accordion-item {
+    background: transparent !important;
+    border-bottom: 0.2px white solid;
+}
+
+#faqs .accordion-button {
+    background: transparent !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 20px 0px;
+}
+
+.accordion-button::after {
+    color: white;
+}
+
+.accordion-button::after {
+
+}
+
+#full-height > div {
+    background: url("../images/footer-banner.jpg") no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#full-height div button {
+    width: 100%;
+}
+
+#full-height .content {
+    position: absolute;
+}
+
+#footer div {
+    padding: 25px 0px;
+}
+
+#footer img {
+    display: block;
+    margin: 0px auto;
+    max-width: 100px;
+}
+
+
+
+
