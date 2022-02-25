@@ -53,13 +53,12 @@ class RegisteredUserController extends Controller
 
         event(new Registered($user));
 
-
         Auth::login($user);
 
         activity('user')
             ->performedOn($user)
             ->causedBy($user)
-            //->withProperties(['customProperty' => 'customValue'])
+            ->withProperties([['user_name' => $user->first_name.' '.$user->last_name]])
             ->log( $user->first_name.' '.$user->last_name.' is login');
 
         return redirect(RouteServiceProvider::HOME);
